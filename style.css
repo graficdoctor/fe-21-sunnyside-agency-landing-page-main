@@ -430,8 +430,13 @@ header {
 
   .card-text {
     align-items: flex-start;
-    max-width: 445px;
+    /* max-width: 445px; */
     margin: 0 1.5rem;
+    padding: 0 7em 0 10em;
+  }
+
+  .switch-order .card-text {
+    padding: 0 10em 0 7em;
   }
 
   .card-text h2,
