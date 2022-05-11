@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+
+  <body class="container">
+    <!-- Navigation -->
+    <header>
+      <div class="header-menu">
+        <img src="images/logo.svg" alt="" class="logo" />
+        <div class="nav-toggle"></div>
+        <nav class="nav">
+          <ul class="nav-links">
+            <li class="nav-link"><a href="#"></a>About</li>
+            <li class="nav-link"><a href="#"></a>Services</li>
+            <li class="nav-link"><a href="#"></a>Projects</li>
+            <li class="nav-link contact-btn btn"><a href="#"></a>Contact</li>
+          </ul>
+        </nav>
+      </div>
+
+      <aside class="sidebar">
+        <ul class="sidebar-links">
+          <li class="sidebar-link"><a href="#">About</a></li>
+          <li class="sidebar-link"><a href="#">Services</a></li>
+          <li class="sidebar-link"><a href="#">Projects</a></li>
+          <li class="sidebar-link btn sidebar-contact-btn"">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="header-hero">
+        <h1>We are creatives</h1>
+        <img src="images/icon-arrow-down.svg" alt="" class="arrow centered" />
+      </div>
+
+      <picture>
+        <source
+          media="(max-width: 56rem)"
+          srcset="images/mobile/image-header.jpg"
+        />
+        <img
+          src="images/desktop/image-header.jpg"
+          alt=""
+          class="img header-background"
+        />
+      </picture>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <article class="services-container">
+        <div class="grid">
+          <picture>
+            <source
+              media="(max-width: 45rem)"
+              srcset="images/mobile/image-transform.jpg"
+            />
+            <img
+              src="images/desktop/image-transform.jpg"
+              alt=""
+              class="card-image img"
+            />
+          </picture>
+          <div class="card-text">
+            <h2>Transform your brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#" class="accent-color color-one">Learn more</a>
+          </div>
+        </div>
+        <div class="grid switch-order">
+          <picture>
+            <source
+              media="(max-width: 45rem)"
+              srcset="images/mobile/image-stand-out.jpg"
+            />
+            <img
+              src="images/desktop/image-stand-out.jpg"
+              alt=""
+              class="card-image img"
+            />
+          </picture>
+          <div class="card-text">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="#" class="accent-color color-two">Learn more</a>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="card-with-background">
+            <picture>
+              <source
+                media="(max-width: 40rem)"
+                srcset="images/mobile/image-graphic-design.jpg" />
+              <img src="images/desktop/image-graphic-design.jpg" alt=""
+            /></picture>
+            <div class="on-background primary-900">
+              <h2>Graphic design</h2>
+              <p class="card-text-p">
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </div>
+          <div class="card-with-background">
+            <picture>
+              <source
+                media="(max-width: 40rem)"
+                srcset="images/mobile/image-photography.jpg" />
+              <img src="images/desktop/image-photography.jpg" alt=""
+            /></picture>
+            <div class="on-background primary-800">
+              <h2>Photography</h2>
+              <p class="card-text-p">
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Testimonials -->
+      <article class="testimonials">
+        <h3>Client testimonials</h3>
+        <div class="testimonial-cards">
+          <div class="client-card">
+            <img src="images/image-emily.jpg" alt="" class="img client-image" />
+            <p class="client-text">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <p class="client-name">Emily R.</p>
+            <p class="client-function">Marketing Director</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="images/image-thomas.jpg"
+              alt=""
+              class="img client-image"
+            />
+            <p class="client-text">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <p class="client-name">Thomas S.</p>
+            <p class="client-function">Chief Operating Officer</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="images/image-jennie.jpg"
+              alt=""
+              class="img client-image"
+            />
+            <p class="client-text">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <p class="client-name">Jennie F.</p>
+            <p class="client-function">Business Owner</p>
+          </div>
+        </div>
+      </article>
+
+      <div class="image-gallery">
+        <picture>
+          <source
+            media="(max-width: 40rem)"
+            srcset="images/mobile/image-gallery-milkbottles.jpg" />
+          <img
+            src="images/desktop/image-gallery-milkbottles.jpg"
+            alt="milkbottles"
+        /></picture>
+        <picture>
+          <source
+            media="(max-width: 40rem)"
+            srcset="images/mobile/image-gallery-orange.jpg" />
+          <img
+            src="images/desktop/image-gallery-orange.jpg"
+            alt="sliced orange on a plate"
+        /></picture>
+        <picture>
+          <source
+            media="(max-width: 40rem)"
+            srcset="images/mobile/image-gallery-cone.jpg" />
+          <img
+            src="images/desktop/image-gallery-cone.jpg"
+            alt="empty ice cream cone"
+        /></picture>
+        <picture>
+          <source
+            media="(max-width: 40rem)"
+            srcset="images/mobile/image-gallery-sugar-cubes.jpg" />
+          <img
+            src="images/desktop/image-gallery-sugarcubes.jpg"
+            alt="stacked sugar cubes against a pink background"
+        /></picture>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <img src="images/logo.svg" alt="" class="img svg centered" />
+        <ul class="nav-links">
+          <li><a href="" class="footer-nav-link">About</a></li>
+          <li><a href="" class="footer-nav-link">Services</a></li>
+          <li><a href="" class="footer-nav-link">Projects</a></li>
+        </ul>
+        <ul class="nav-links social-icons">
+          <li>
+            <a href="" class="footer-nav-link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="" class="footer-nav-link"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="" class="footer-nav-link"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="" class="footer-nav-link"
+              ><ion-icon name="logo-pinterest"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Ion Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
