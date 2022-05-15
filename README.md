@@ -48,7 +48,7 @@ Users should be able to:
 I somehow seemed to have complicated the code for myself while writing this code. While I was doing the refactoring, I bumped into lots of tiny errors. Which were easy to solve, but nevertheless slowed me down.
 I didn't do this code in onde day. Due to combining learning how to code while working a full time, I only manage to do a maximum of 1 hour/day. This also makes me loose overview of my coding. To solve this, I began writing down a to-do-list. It helped me to be focussed on my project. But I need to adapt it slightly to write cleaner.
 
-I was given amazing feedback on how to improve the accessibility of my page. I added this in various parts, since I also wanted to read up on the information provided.
+I was given amazing feedback on how to improve the accessibility of my page. I add(ed) this in various parts, since I also wanted to read up on the information provided.
 
 ### Useful resources
 
