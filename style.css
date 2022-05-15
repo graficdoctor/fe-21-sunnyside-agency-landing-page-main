@@ -493,13 +493,6 @@ footer {
   margin: 0 auto;
 }
 
-footer .svg {
-  height: 33px;
-  filter: invert(70%) sepia(76%) saturate(339%) hue-rotate(118deg)
-    brightness(100%) contrast(100%);
-  object-fit: contain;
-}
-
 footer .nav-links {
   display: flex;
   align-content: center;
@@ -524,6 +517,11 @@ footer .social-icons {
   margin-top: 5.5rem;
 }
 
-ion-icon {
-  font-size: 1.75rem;
+svg {
+  fill: var(--primary-color-300);
+  transition: 0.5s;
+}
+
+svg:hover {
+  fill: var(--neutral-color-100);
 }
