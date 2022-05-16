@@ -54,6 +54,8 @@ I was given amazing feedback on how to improve the accessibility of my page. I a
 
 - [CSS Underline using pseudo styles](https://codepen.io/elb96/pen/aXKXBx) - An easy to read code-example on how applying the `::after`-pseudoclass to create the colored bar underneath the text.
 - [Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+- [Screen Reader Only Text](https://accessible360.com/accessible360-blog/use-aria-label-screen-reader-text)
+- [Accessible Mobile Navigation](https://www.a11ymatters.com/pattern/mobile-nav/)
 
 ## Author
 
